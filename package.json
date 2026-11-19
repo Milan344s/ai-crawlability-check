@@ -1,0 +1,28 @@
+{
+  "name": "ai-crawlability-check",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Free MCP server that checks whether AI crawlers can reach, index and quote a web page.",
+  "scripts": {
+    "test": "node test/run.mjs",
+    "dev": "npx --yes wrangler@4 dev",
+    "deploy": "npx --yes wrangler@4 deploy"
+  },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Milan344s/ai-crawlability-check.git" },
+  "author": "Milan Novotný (https://www.milan-novotny.com/)",
+  "homepage": "https://www.milan-novotny.com/tools/ai-crawlability-mcp/",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai-crawlers",
+    "robots-txt",
+    "seo",
+    "geo",
+    "llms-txt",
+    "gptbot",
+    "claudebot"
+  ],
+  "private": true
+}

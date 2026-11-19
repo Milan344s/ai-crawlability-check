@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Milan344s/ai-crawlability-check",
+  "title": "AI Crawlability Check",
+  "description": "Check if AI crawlers like GPTBot and ClaudeBot can reach, index and quote any web page.",
+  "version": "2.0.0",
+  "websiteUrl": "https://www.milan-novotny.com/tools/ai-crawlability-mcp/",
+  "repository": { "url": "https://github.com/Milan344s/ai-crawlability-check", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.milan-novotny.com/mcp" }]
+}

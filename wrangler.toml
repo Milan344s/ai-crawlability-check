@@ -1,0 +1,11 @@
+name = "milan-mcp"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+workers_dev = true
+
+# Live address. Cloudflare creates the DNS record and certificate on deploy,
+# because the milan-novotny.com zone is in the same account.
+routes = [{ pattern = "mcp.milan-novotny.com", custom_domain = true }]
+
+[observability]
+enabled = true

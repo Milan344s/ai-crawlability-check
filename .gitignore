@@ -1,0 +1,8 @@
+.secrets/
+private/
+node_modules/
+.wrangler/
+.DS_Store
+*.pem
+.dev.vars
+.env*
